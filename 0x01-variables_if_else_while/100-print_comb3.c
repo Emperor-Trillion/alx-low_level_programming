@@ -10,13 +10,21 @@
 int main(void)
 {
 int c;
+int d;
 
 for (c = 48; c <= 57; c++)
 {
-	putchar(c);
-	if (c != 57)
-	putchar(44);
-	putchar(32);
+	for (d = 49; d <= 57; d++)
+	{
+		if (((d * 10) + (c * 1)) > ((c * 10) + (d * 1)))
+				{
+					putchar(c);
+					putchar(d);
+					if ((c + d) != (56 + 57))
+					putchar(44);
+					putchar(32);
+				}	
+	}
 }
 putchar('\n');
 return (0);
