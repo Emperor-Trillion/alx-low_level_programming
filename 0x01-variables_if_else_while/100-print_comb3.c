@@ -21,9 +21,8 @@ for (c = 48; c <= 57; c++)
 						putchar(c);
 						putchar(d);
 						if ((c + d) != (56 + 57))
-							{	putchar(44);
-								putchar(32);
-							}
+						{putchar(44);
+						putchar(32); }
 					}	
 			}
 	}
