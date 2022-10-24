@@ -21,14 +21,14 @@ for (c = 48; c <= 55; c++)
 		{
 			
 			if (((e * 100) + (d * 10) + (c *1)) > ((c * 100) + (d * 10) + (e * 1)))
-				{
-					putchar(c);
-					putchar(d);
-					putchar(e);
-					if ((c + d + e) != (55 + 56 + 57))
-					putchar(44);
-					putchar(32);
-				}	
+			{
+				putchar(c);
+				putchar(d);
+				putchar(e);
+				if ((c + d + e) != (55 + 56 + 57))
+				{putchar(44);
+				putchar(32);}
+			}	
 		}
 	}
 }
