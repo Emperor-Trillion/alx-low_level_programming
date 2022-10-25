@@ -29,7 +29,7 @@ for (a = 48; a <= 57; a++)
 					putchar(32);
 					putchar(c);
 					putchar(d);
-					if ((a + c + d + b) != (57 + 57 + 56 + 57))
+					if ((a + c + d + b) != (57 + 57 + 56 + 57) || (b > a))
 					{putchar(44);
 					putchar(32); }
 				}
