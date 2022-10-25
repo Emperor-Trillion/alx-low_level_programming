@@ -23,15 +23,16 @@ for (a = 48; a <= 57; a++)
 			for (d = 48; c <= 57; d++)
 			{
 				if (((a * 10) + (b * 1)) < ((c *10) + (d * 1))) 
-			{
-				putchar(a);
-				putchar(b);
-				putchar(32);
-				putchar(c);
-				putchar(d);
-				if ((a + c + d + b) != (57 + 57 + 56 + 57))
-				{putchar(44);
-				putchar(32); }
+				{
+					putchar(a);
+					putchar(b);
+					putchar(32);
+					putchar(c);
+					putchar(d);
+					if ((a + c + d + b) != (57 + 57 + 56 + 57))
+					{putchar(44);
+					putchar(32); }
+				}
 			}
 		}
 	}
