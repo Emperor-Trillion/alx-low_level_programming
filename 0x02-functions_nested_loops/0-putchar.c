@@ -3,9 +3,9 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+*/
 int main(void)
-
+{
 putchar(95);
 putchar(112);
 putchar(117);
