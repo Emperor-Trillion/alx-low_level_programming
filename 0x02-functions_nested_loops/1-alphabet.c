@@ -6,7 +6,9 @@
  *
  * Return: Always 0.
  *
- * int print_alphabet() -Function prints small Alphabets,return 0
+ * int print_alphabet() -Function prints small letters
+ *
+ * And prints it well
  */
 int print_alphabet(void)
 {
