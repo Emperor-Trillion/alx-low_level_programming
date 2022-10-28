@@ -2,13 +2,11 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- *
- * int print_alphabet() -Function prints small letters
+ * int print_alphabet() (Function prints small letters)
+ * @parameter (void) (all aphabets printed)
  *
  * And prints it well
+ * #include <stdio.h> global header, #include "main.h" from file
  */
 int print_alphabet(void)
 {
