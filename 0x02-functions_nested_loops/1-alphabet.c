@@ -3,10 +3,8 @@
 
 /**
  * int print_alphabet - Function prints small letters
- * No parameter
  *
- * Prints all alphabets
- * main.h contains createed header files
+ * Return: void
  */
 int print_alphabet(void)
 {
