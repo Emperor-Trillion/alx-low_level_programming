@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * int print_alphabet - Function prints small letters
- *
- * Return: void
+ * int print_alphabet - Does a good job
+ * void:  No parameter
+ * print_alphabet: Prints alphabets
  */
 int print_alphabet(void)
 {
