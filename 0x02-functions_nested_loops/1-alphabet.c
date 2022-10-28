@@ -2,10 +2,12 @@
 #include "main.h"
 
 /**
- * int print_alphabet - Does a good job
- * void:  No parameter
- * print_alphabet: Prints alphabets
+ * void print_alphabet(void) - print alphabet
+ * @parameters: None
+ *
+ * Return: 0
  */
+
 int print_alphabet(void)
 {
 	int a;
