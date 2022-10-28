@@ -5,6 +5,7 @@
  * int print_alphabet - Function prints small letters
  *
  * Return: void
+ *
  */
 int print_alphabet(void)
 {
