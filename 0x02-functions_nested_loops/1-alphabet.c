@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * int print_alphabet() (Function prints small letters)
- * @parameter (void) (all aphabets printed)
+ * int print_alphabet - Function prints small letters
  *
- * And prints it well
- * #include <stdio.h> global header, #include "main.h" from file
+ * Return: void
  */
 int print_alphabet(void)
 {
