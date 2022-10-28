@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
+/* This function prints 'a' to 'z'*/
 int print_alphabet(void)
 {
 	int a;
