@@ -3,7 +3,7 @@
 
 /**
  * void print_alphabet(void) - print alphabet
- * @parameters: None
+ * @parameter: None
  *
  * Return: 0
  */
