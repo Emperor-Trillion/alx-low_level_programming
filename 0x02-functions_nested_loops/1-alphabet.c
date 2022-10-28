@@ -5,7 +5,7 @@
  * No parameter
  *
  * Prints all alphabets
- *"main.h" contains createed header files
+ * main.h contains createed header files
  */
 int print_alphabet(void)
 {
