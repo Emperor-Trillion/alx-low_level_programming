@@ -2,9 +2,11 @@
 #include "main.h"
 
 /**
- * This function prints 'a' to 'z'
+ * main - check the code
  *
+ * Return: Always 0.
  *
+ * This function prints small Alphabets and return 0
  */
 int print_alphabet(void)
 {
