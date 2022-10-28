@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-/* This function prints 'a' to 'z'
- *
+/**
+ * This function prints 'a' to 'z'
  *
  *
  */
