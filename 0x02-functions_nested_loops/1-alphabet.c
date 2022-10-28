@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * int print_alphabet - Function prints small letters
+ * No parameter
  *
- * Return: void
- *
+ * Prints all alphabets
+ *"main.h" contains createed header files
  */
 int print_alphabet(void)
 {
