@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/** print_alphabet: Description
+/** 
+ * print_alphabet - Description
  *
- * */
+ * Return: Always 0.
+ */
 int print_alphabet(void)
 
 {
