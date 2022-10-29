@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * isalpha - checks is input is an alphabet
+ * _isalpha - checks is input is an alphabet
  * @c: c is all spectrum of the ascii character to check
  *
  * Return: '1' if input is an alphabet and '0' if not.
