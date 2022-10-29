@@ -10,11 +10,11 @@ int _islower(int c)
 {
 	if ((c >= 97) && (c <= 122))
 	{
-		c = putchar(1);
+		c = 1;
 	}
 	else
 	{
-		c = putchar(0);
+		c = 0;
 	}
 return (c);
 }
