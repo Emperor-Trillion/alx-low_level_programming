@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower(int c) - checks is input is lower alphabet
+ * _islower - checks is input is lower alphabet
  * @c: c is all spectrum of the ascii character to check
  *
  * Return: '1' if it's a lower case and '0' if not.
