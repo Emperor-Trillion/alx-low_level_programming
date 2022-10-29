@@ -7,7 +7,7 @@
  *
  * Return: '1' if input is an alphabet and '0' if not.
  */
-int isalpha(int c)
+int _isalpha(int c)
 {
 	if ((c >= 65) && (c <= 122))
 	{
