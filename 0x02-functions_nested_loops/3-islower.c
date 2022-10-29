@@ -3,8 +3,8 @@
 
 /**
  * _islower(int c) - checks is input is lower alphabet
- *@c is the integer to check
-
+ * @c is the integer to check
+ *
  * Returns '1' if it's a lower case and '0' if not.
  */
 int _islower(int c)
