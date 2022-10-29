@@ -22,7 +22,7 @@ int print_sign(int n)
 	else
 	{
 		putchar('-');
-		c = '/'
+		c = '/';
 	}
 return (c);
 }
