@@ -9,14 +9,7 @@
 int jack_bauer(void)
 
 {
-	int a;
-	int b;
-	int c;
-	int d;
-	int e = 50;
-	int f;
-	int g;
-	int h;
+	int a; int b; int c; int d; int e = 50; int f; int g; int h;
 
 	for (a = 48; a <= 49; a++)
 	{
