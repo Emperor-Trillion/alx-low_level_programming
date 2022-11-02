@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int a;
+	int a = 3;
 	int b = 0;
 
 	if (a == 3)
