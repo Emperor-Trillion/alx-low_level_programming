@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * print_to_98 - prints from any entry to '98'
  * @n: n is the input
@@ -19,21 +18,21 @@ int print_to_98(int n)
 			printf("%d", n);
 			if (n != 98)
 			{
-			_putchar(',');
-			_putchar(' '); }
+			putchar(',');
+			putchar(' '); }
 		}
 	}
 	else
 	{
-		for (n = n; n>=98; n--)
+		for (n = n; n>= 98; n--)
 		{
 			printf("%d", n);
 			if (n != 98)
 			{
-			_putchar(',');
-			_putchar(' '); }
+			putchar(',');
+			putchar(' '); }
 		}
 	}
-_putchar('\n');
+putchar('\n');
 return (0);
 }
