@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+	int a;
 	int b = 0;
 
 	if (a == 3)
