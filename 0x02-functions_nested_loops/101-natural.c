@@ -10,26 +10,13 @@ int main(void)
 	int a = 3;
 	int b = 0;
 
-	if (a == 3)
-	{
-		for (a = 1; a < 1024; a++)
+		for (a = 3; a < 1024; a++)
 		{
-			if (a % 3 == 0)
+			if (a % 3 == 0 || a % 5 == 0)
 			{
 				b = b + a;
 			}
 		}
-	}
-	else if (a == 5)
-	{
-		for (a = 1; a < 1024; a++)
-		{
-			if (a % 5 == 0)
-			{
-				b = b + a;
-			}
-		}
-	}
 	printf("%d", b);
 	putchar('\n');
 	return (0);
