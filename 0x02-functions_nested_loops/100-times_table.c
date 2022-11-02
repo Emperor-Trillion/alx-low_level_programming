@@ -32,17 +32,11 @@ int print_times_table(int n)
 				}
 				else if (c > 99)
 				{
-					putchar(',');
-					putchar(' ');
-					printf("%d", c);
+					printf(", %d", c);
 				}
 				else
 				{
-					putchar(',');
-					putchar(' ');
-					putchar(' ');
-					putchar(' ');
-					printf("%d", c);
+					printf(",   %d", c);
 				}
 			}
 			putchar('\n');
