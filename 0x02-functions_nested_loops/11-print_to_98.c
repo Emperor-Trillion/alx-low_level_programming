@@ -10,10 +10,11 @@ int print_to_98(int n)
 {
 	for (n = n; n <= 98; n++)
 	{
-	putchar(n);
-	putchar(',');
-	putchar(' ');
+	_putchar((n / 10) + '0');
+	_putchar((n % 10) + '0');
+	_putchar(',');
+	_putchar(' ');
 	}
-putchar('\n');
+_putchar('\n');
 return (0);
 }
