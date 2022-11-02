@@ -16,23 +16,23 @@ int times_table(void)
 	{
 		for (b = 0; b < 10; b++)
 		{
-			if ((a * b) > 9)
+			if (b == 0)
 			{
+				putchar('0');
+			}
+			else if ((a * b) > 9)
+			{
+				putchar(',');
+				putchar(' ');
 				putchar(((a * b) / 10) + '0');
 				putchar(((a * b) % 10) + '0');
-				if (b != 9)
-				{
-				putchar(',');
-				putchar(' '); }
 			}
 			else
 			{
-				putchar((a * b) + '0');
-				if (b != 9)
-				{
 				putchar(',');
 				putchar(' ');
-				putchar(' '); }
+				putchar(' ');
+				putchar((a * b) + '0');
 			}
 		}
 		putchar('\n');
