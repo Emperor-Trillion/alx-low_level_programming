@@ -48,7 +48,7 @@ int print_times_table(int n)
 			putchar('\n');
 		}
 	}
-	else
+	else if (n < 0 || n > 15)
 	{
 	}
 	return (0);
