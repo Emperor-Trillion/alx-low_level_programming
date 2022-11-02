@@ -45,8 +45,8 @@ int print_times_table(int n)
 					printf("%d", c);
 				}
 			}
+			putchar('\n');
 		}
-		putchar('\n');
 	}
 	return (0);
 }
