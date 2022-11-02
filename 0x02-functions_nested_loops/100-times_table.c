@@ -2,6 +2,7 @@
 
 /**
  * print_times_table - prints times table of inputed number
+ * @n: n being the iput integer
  *
  * Return: Always 0.
  */
