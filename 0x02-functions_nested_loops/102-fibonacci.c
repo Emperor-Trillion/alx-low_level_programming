@@ -15,7 +15,7 @@ int main(void)
 	printf("%d, ", b);
 	for (d = 0; d <= 49; d++)
 	{
-		printf("%d, ", c);
+		printf("%u, ", c);
 		t = b + c;
 		b = c;
 		c = t;
