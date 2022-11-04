@@ -13,9 +13,13 @@ int main(void)
 	long int t;
 
 	printf("%lu, ", b);
-	for (d = 0; d <= 49; d++)
+	for (d = 0; d <= 50; d++)
 	{
-		printf("%lu, ", c);
+		printf("%lu", c);
+		if (c != 20365011074)
+		{
+		putchar(44);
+		putchar(32); }
 		t = b + c;
 		b = c;
 		c = t;
