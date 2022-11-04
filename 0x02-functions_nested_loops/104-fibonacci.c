@@ -7,18 +7,23 @@
  */
 int main(void)
 {
-	long long int b = 1;
-	long long int c = 2;
+	long int b = 1;
+	long int c = 2;
 	int d;
-	long long int t;
+	long int t;
 
-	printf("%llu, ", b);
-	for (d = 0; d <= 49; d++)
+	printf("%lu, ", b);
+	for (d = 0; d < 97; d++)
 	{
-		printf("%llu, ", c);
+		printf("%lu", c);
+		if (c != 20365011074)
+		{
+		putchar(44);
+		putchar(32); }
 		t = b + c;
 		b = c;
 		c = t;
 	}
+	putchar('\n');
 	return (0);
 }
