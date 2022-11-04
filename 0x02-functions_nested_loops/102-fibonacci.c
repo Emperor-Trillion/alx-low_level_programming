@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	int b = 1;
-	int c = 2;
+	long long int b = 1;
+	long long int c = 2;
 	int d;
-	int t;
+	long long int t;
 
 	printf("%d, ", b);
 	for (d = 0; d <= 49; d++)
 	{
-		printf("%u, ", c);
+		printf("%llu, ", c);
 		t = b + c;
 		b = c;
 		c = t;
