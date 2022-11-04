@@ -24,5 +24,6 @@ int main(void)
 		b = c;
 		c = t;
 	}
+	putchar("\n");
 	return (0);
 }
