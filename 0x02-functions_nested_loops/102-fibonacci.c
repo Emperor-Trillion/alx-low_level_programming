@@ -13,7 +13,7 @@ int main(void)
 	long int t;
 
 	printf("%lu, ", b);
-	for (d = 0; d < 50; d++)
+	for (d = 0; d < 49; d++)
 	{
 		printf("%lu", c);
 		if (c != 20365011074)
