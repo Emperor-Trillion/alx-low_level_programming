@@ -8,11 +8,12 @@
 int main(void)
 {
 	long int b = 1;
-	long int c = 2;
+	long int c = 1;
+	long int d;
 	long int t;
 	long int Total = 0;
 
-	for (c = 2; c <= 4000000; c++)
+	for (d = 0; c <= 4000000; d++)
 	{
 		if (c % 2 == 0)
 		{
