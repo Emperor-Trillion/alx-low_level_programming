@@ -12,7 +12,7 @@ int main(void)
 	int d;
 	long int t;
 
-	for (d = 1; d < 97; d++)
+	for (d = 0; d <= 97; d++)
 	{
 		printf("%lu", c);
 		if (c != 20365011074)
