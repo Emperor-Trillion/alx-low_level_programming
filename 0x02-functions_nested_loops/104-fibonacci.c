@@ -8,12 +8,11 @@
 int main(void)
 {
 	long int b = 1;
-	long int c = 2;
+	long int c = 1;
 	int d;
 	long int t;
 
-	printf("%lu, ", b);
-	for (d = 0; d < 97; d++)
+	for (d = 1; d < 97; d++)
 	{
 		printf("%lu", c);
 		if (c != 20365011074)
