@@ -5,7 +5,6 @@
  * @c: the input
  * Return: 1 for positive and 0 for negative
  */
-
 int _isupper (int c)
 {
 
