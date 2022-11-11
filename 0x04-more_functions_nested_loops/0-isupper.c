@@ -11,10 +11,12 @@ int _isupper (int c)
 
 	if (c >= 65 && c <= 90 )
 	{
+	  _putchar("\n");
 		return (1);
 	}
 	else
 	{
+	  _putchar("\n");
 		return (0);
 	}
 }
