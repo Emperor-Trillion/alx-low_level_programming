@@ -12,11 +12,12 @@ int _isupper (int c)
 	if (c >= 65 && c <= 90)
 	{
 		a = 1;
+		break;
 	}
 	else
 	{
 		a = 0;
+		break;
 	}
 	return (a);
-	break;
 }
